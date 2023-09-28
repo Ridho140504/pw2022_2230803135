@@ -1,0 +1,27 @@
+/* Gaya untuk elemen <body> */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #c1f6a6;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+/* Gaya untuk judul */
+h1 {
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.text-box {
+    background-color: #f2f2f2; /* Warna latar belakang */
+    border: 1px solid #ccc; /* Border dengan garis solid */
+    padding: 20px; /* Ruang di dalam boks */
+    width: 300px; /* Lebar boks */
+}
+.text-center {
+    text-align: center; /* Pusatkan secara horizontal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Atur tinggi agar teks menjadi tengah secara vertikal */
+}

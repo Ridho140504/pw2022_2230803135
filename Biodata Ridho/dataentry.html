@@ -1,0 +1,157 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('foto2.jpg');
+            background-size: cover;
+            /* Untuk memastikan gambar mencakup seluruh halaman */
+        }
+
+        .container {
+            background-image: url('Foto5.jpg');
+            background-size: cover;
+        }
+    </style>
+    <title>Data Entry</title>
+
+</head>
+
+<body style="font-family: 'Times New Roman', Times, serif;">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+            <img src="foto2.jpg" alt="logo" style="width:50px;">
+        </a>
+
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">MRKCom</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="datadiri.html">Biodata</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="dataentry.html">Data Entry</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container p-3 my-3 bg-dark text-white">
+        <h2 align="center">
+            <font color="#000">Data Entry</font>
+        </h2>
+    </div>
+    <div class="container p-3 my-3">
+        <form action="proses.asp" method="post" name="form">
+            <table width="68%" border="0" align="center" cellpadding="0">
+                <tr>
+                    <td width="33%">1. Nama</td>
+                    <td width="3%">:</td>
+                    <td width="64%"><input name="txtNama" type="text" id="txtNama"></td>
+                </tr>
+                <tr>
+                    <td width="33%">2. NIM</td>
+                    <td width="3%">:</td>
+                    <td width="64%"><input name="txtNama" type="number" id="txtNama"></td>
+                </tr>
+                <tr>
+                    <td width="33%">3. Kelas</td>
+                    <td width="3%">:</td>
+                    <td width="64%"><input name="txtNama" type="text" id="txtNama"></td>
+                </tr>
+                <tr>
+                    <td>4. Jenis Kelamin</td>
+                    <td>:</td>
+                    <td><input name="radJk" type="radio" value="1">
+                        Laki-Laki
+                        <input type="radio" name="radJk" value="2">
+                        Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>5. Agama</td>
+                    <td>:</td>
+                    <td><select name="cboJob" id="cboJob">
+                            <option>Islam</option>
+                            <option>Kristen</option>
+                            <option>Hindu</option>
+                            <option>Buddha</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>6. Tempat/Tanggal Lahir</td>
+                    <td>:</td>
+                    <td><input type="text">
+                        /
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">7. Alamat</td>
+                    <td valign="top">:</td>
+                    <td><textarea name="txtAlamat" cols="40" rows="2" id="txtAlamat"></textarea></td>
+                </tr>
+                <tr>
+                    <td>8. Riwayat Pendidikan</td>
+                </tr>
+                <tr>
+                    <td>A. SD</td>
+                    <td>:</td>
+                    <td><input name="txtNama" type="text" id="txtNama"></td>
+                </tr>
+                <tr>
+                    <td>B. SMP</td>
+                    <td>:</td>
+                    <td><input name="txtNama" type="text" id="txtNama"></td>
+                </tr>
+                <tr>
+                    <td>C. SMA</td>
+                    <td>:</td>
+                    <td><input name="txtNama" type="text" id="txtNama"></td>
+                </tr>
+                <tr>
+                    <td>9. Email</td>
+                    <td>:</td>
+                    <td><input name="txtKota" type="text" id="txtKota"></td>
+                </tr>
+                <tr>
+                    <td>10. Homepage</td>
+                    <td>:</td>
+                    <td><input name="txtKota" type="text" id="txtKota"></td>
+                </tr>
+                <tr>
+                    <td>11. Hobby</td>
+                    <td>:</td>
+                    <td><textarea name="txtAlamat" cols="40" rows="2" id="txtAlamat"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td>12. Interest</td>
+                    <td>:</td>
+                    <td><input name="cekReading" type="checkbox" id="cekReading" value="1">
+                        Komputer
+                        <input name="cekSport" type="checkbox" id="cekSport" value="2">
+                        Sport
+                        <input name="cekTravel" type="checkbox" id="cekTravel" value="4">
+                        Traveling
+                        <input name="cekSing" type="checkbox" id="cekSing" value="3">
+                        Writing
+                        <input name="cekSing" type="checkbox" id="cekSing" value="3">
+                        Reading
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td><input name="btnSimpan" type="submit" id="btnSimpan" value="Simpan">
+                        <input name="btnReset" type="reset" id="btnReset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

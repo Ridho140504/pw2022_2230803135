@@ -2,13 +2,50 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('foto2.jpg');
+            background-size: cover; /* Untuk memastikan gambar mencakup seluruh halaman */
+        }
+        .bordered-element {
+            border: 2px solid #000; /* 2px adalah ketebalan border, #000 adalah warna (hitam) */
+        }
+        hr {
+            border: none; /* Menghapus border default hr */
+            border-top: 5px solid #000; /* Menambahkan border atas hr dengan ketebalan 1px dan warna hitam (#000) */
+        }
+    </style>
     <title>MRK14</title>
 </head>
+<html>
+<body style="font-family: 'Times New Roman', Times, serif;" >
+    <center>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+            <img src="foto3.jpg" alt="logo" style="width:50px;">
+        </a>
 
-<body bgcolor = "lavender">
-    <h1><center>Homepage Pribadi</center></h1>
-    <hr style="width: 50%; background-color: rgb(0, 30, 255); height: 2px;"> 
-    <ol type="1">
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">MRKCom</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="datadiri.html">Biodata</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="dataentry.html">Data Entry</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container p-3 my-3 bg-dark text-white">
+        <h1>
+            <center>Homepage Pribadi</center>
+        </h1>
+    </div>
+    <div class="container p-3 my-3 bg-dark text-white">
     <table>
         <tr>
             <td>1. Nama</td>
@@ -36,55 +73,49 @@
             <td>Payaraman Timur Kec.Payaraman Kab.Ogan ilir</td>
         </tr>
         <tr>
-            <td>6. Riwayat Pendidikan</td>
-        </tr>
-        <tr>
+            <td valign="top">6. Riwayat Pendidikan</td>
+            <td valign="top">:</td>
             <td>
-            <ol type="A">
-                <li>SD/MIN : MIN 01 Payaraman</li>
-                <li>SMP/MTS : MTSN 03 0GAN ILIR</li>
-                <li>SMA/MA : MA BABUSSALAM PAYARAMAN</li>
-            </ol>  
+                <ol type="A" valign="top">
+                    <li>SD/MIN : MIN 01 Payaraman</li>
+                    <li>SMP/MTS : MTSN 03 0GAN ILIR</li>
+                    <li>SMA/MA : MA BABUSSALAM PAYARAMAN</li>
+                </ol>
             </td>
         </tr>
         <tr>
             <td>7. Email</td>
             <td>:</td>
-            <td>mridhopempropd@gmail.com</td>
+            <td><a href="mailto:mridhopempropd@gmail.com">mridhopempropd@gmail.com</a></td>
         </tr>
         <tr>
             <td>8. Homepage</td>
             <td>:</td>
-            <td>www.mrk.com</td>
+            <td><a href="index.html">MRKCom</a></td>
+
         </tr>
         <tr>
-            <td>9. Hobby</td>
-        </tr>
-        <tr>
+            <td valign="top">9. Hobby</td>
+            <td valign="top">:</td>
             <td>
-            <ol type="A">
-                <li>Catur</li>
-                <li>Tenis Meja</li>
-                <li>Bliard</li>
-            </ol>  
+                <ol type="A">
+                    <li>Catur</li>
+                    <li>Tenis Meja</li>
+                    <li>Bliard</li>
+                </ol>
             </td>
-        </tr>
-        <tr>
-            <td>
-                <hr style="width: 200%; background-color: rgb(0, 30, 255); height: 2px;">
-            </td>
-        </tr>
-    
-        <tr>
-            <td>10. Deskripsi Pribadi Saya</td>
         </tr>
     </table>
-</ol>
-        <tr>   
-            <td><p>Saya Adalah Oarang Yang Mempunyai Prinsip Untuk<br>Senantiasa Disiplin
+    <hr>
+
+            <p>10. Deskripsi Pribadi Saya</p>
+            
+            <p>Saya Adalah Oarang Yang Mempunyai Prinsip Untuk<br>Senantiasa Disiplin
                 dan Tidak Suka Bertele-tele<br>
-                <h3>Meskipun Saya Tidak Suka Bertele-tele, Tapi Saya Kadang Melakukan Itu</h3></p>
-            </td>
-        </tr>
-    </body>
-    </html>
+            <h3>Meskipun Saya Tidak Suka Bertele-tele, Tapi Saya Kadang Melakukan Itu</h3>
+            </p>
+</div>
+</center>
+</body>
+
+</html>
